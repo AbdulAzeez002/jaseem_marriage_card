@@ -1,30 +1,30 @@
 * {
-  
   box-sizing: border-box;
-
-
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('./font/Caveat-Bold.ttf') format('truetype');
-         /* url('./font/Caveat-Medium.ttf') format('truetype'),
+  font-family: "MyCustomFont";
+  src: url("./font/Caveat-Bold.ttf") format("truetype");
+  /* url('./font/Caveat-Medium.ttf') format('truetype'),
          url('./font/Caveat-Regular.ttf') format('truetype'),
          url('./font/Caveat-SemiBold.ttf') format('truetype'); */
-  }
+}
 
-body{
-    font-family: 'MyCustomFont';
+body {
+  font-family: "MyCustomFont";
 
-    font-optical-sizing: auto;
-    font-weight:  700;
-    font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-height: 100vh;
 }
 .invitation {
   height: 100vh;
   margin: 0 auto;
   position: relative;
-  background: #FFFAF2;
+  background: #fffaf2;
 }
 
 .wedding-flower {
@@ -41,61 +41,54 @@ body{
   left: 0;
 }
 
-.content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items: center;
-    /* padding-top: 50px; */
-    position: relative;
-    z-index: 1;
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 50px; */
+  position: relative;
+  z-index: 1;
 }
-.heading{
-    font-size: 28px;
-
+.heading {
+  font-size: 28px;
 }
-.couple-img{
-    width: 35%;
+.couple-img {
+  width: 35%;
 }
-.map{
-    color:olive;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 16px;
+.map {
+  color: olive;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
 }
-a{
-    text-decoration: none!important;
-    color:olive
-
+a {
+  text-decoration: none !important;
+  color: olive;
 }
-a:hover{
-    color:olive
-
+a:hover {
+  color: olive;
 }
-.name-card-img{
-    width: 65%;
+.name-card-img {
+  width: 65%;
 }
 
-.date-card-img{
-    width:60%;
-    display:inline-block;
-    margin-top: 24px;
-    
+.date-card-img {
+  width: 60%;
+  display: inline-block;
+  margin-top: 24px;
 }
 
-.location{
-    width: 60%;
-    text-align: center;
-    font-size: 22px;
-    
+.location {
+  width: 60%;
+  text-align: center;
+  font-size: 22px;
 }
-
-
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .heading{
-        font-size: 24px;
-    }
+  .heading {
+    font-size: 24px;
+  }
 }
