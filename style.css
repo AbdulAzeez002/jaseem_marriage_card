@@ -5,8 +5,17 @@
 
 }
 
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./font/Caveat-Bold.ttf') format('truetype');
+         /* url('./font/Caveat-Medium.ttf') format('truetype'),
+         url('./font/Caveat-Regular.ttf') format('truetype'),
+         url('./font/Caveat-SemiBold.ttf') format('truetype'); */
+  }
+
 body{
-    /* font-family: cursive; */
+    font-family: 'MyCustomFont';
+
     font-optical-sizing: auto;
     font-weight:  700;
     font-style: normal;
@@ -78,6 +87,7 @@ a:hover{
 .location{
     width: 60%;
     text-align: center;
+    font-size: 22px;
     /* text-align: center; */
     
     /* background-color: red; */
