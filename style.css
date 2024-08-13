@@ -19,7 +19,7 @@ body {
   font-weight: 700;
   font-style: normal;
   max-height: 100vh;
-  background: #fffaf2;
+  /* background: #fffaf2; */
 }
 .invitation {
   height: 100vh;
