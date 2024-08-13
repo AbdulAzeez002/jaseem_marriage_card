@@ -1,0 +1,89 @@
+* {
+  
+  box-sizing: border-box;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body{
+    font-family: "Caveat", cursive;
+}
+.invitation {
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background: #FFFAF2;
+}
+
+.wedding-flower {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wedding-leaf {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 50px; */
+    position: relative;
+    z-index: 1;
+}
+.heading{
+    font-size: 22px;
+}
+.couple-img{
+    width: 35%;
+}
+.map{
+    color:olive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
+a{
+    text-decoration: none!important;
+    color:olive
+
+}
+a:hover{
+    color:olive
+
+}
+.name-card-img{
+    width: 65%;
+}
+
+.date-card-img{
+    width:60%;
+    display:inline-block;
+    margin-top: 24px;
+    
+}
+
+.location{
+    width: 60%;
+    text-align: center;
+    /* text-align: center; */
+    
+    /* background-color: red; */
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .heading{
+        font-size: 16px;
+    }
+}
